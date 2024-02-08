@@ -978,7 +978,7 @@ public static class ToLuaMenu
     }
 
 
-    [MenuItem("Lua/Copy Lua  files to Resources", false, 51)]
+    [MenuItem("Lua/Copy Lua files to Resources", false, 51)]
     public static void CopyLuaFilesToRes()
     {
         ClearAllLuaFiles();
@@ -989,7 +989,7 @@ public static class ToLuaMenu
         Debug.Log("Copy lua files over");
     }
 
-    [MenuItem("Lua/Copy Lua  files to Persistent", false, 52)]
+    [MenuItem("Lua/Copy Lua files to Persistent", false, 52)]
     public static void CopyLuaFilesToPersistent()
     {
         ClearAllLuaFiles();
